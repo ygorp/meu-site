@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #E8C547;
+    --title: #30323D;
+    --text-hover: #4D5061;
+    --text: #FFFFFF;
+}
+
+.nav {
+    width: 100%;
+    height: 70px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--primary);
+}
+
+.nav img {
+    width: 220px;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--title);
+}
+
+.menu a:hover {
+    color: var(--text-hover);
+}
+
+.banner {
+    width: 100%;
+    height: 650px;
+    background-image: url(/img/Fundo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner h2 {
+    font-family: 'Roboto';
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.banner span {
+    color: var(--primary);
+    font-size: 60px;
+}
+
+.btn_banner {
+    margin-top: 5rem;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--primary);
+    color: var(--title);
+    width: 240px;
+    padding: 10px 15px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn_banner:hover {
+    border: 2px solid var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.sobre {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-sobre {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.texto-sobre h2 {
+    font-family: 'Robot';
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--title);
+    margin-bottom: 3rem;
+}
+
+.texto-sobre span {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-hover);
+    background-color: var(--primary);
+    padding: .3rem;
+    border-radius: 8px;
+}
+
+.texto-sobre p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-hover);
+}
+
+.img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
