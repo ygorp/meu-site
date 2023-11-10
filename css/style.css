@@ -95,7 +95,7 @@
 
 .sobre {
     width: 100%;
-    height: 500px;
+    height: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,6 +156,7 @@
     align-items: center;
     flex-direction: column;
     padding: 2rem;
+    box-shadow: 0 0 40px 10px var(--title);
 }
 
 .texto-servicos h2 {
@@ -280,14 +281,100 @@
     }
     .img {
         width: 100%;
+        margin-bottom: 2rem;
+    }
+    .servicos {
+        height: 100%;
     }
     .cards-servicos {
         flex-direction: column;
+        margin-bottom: 2rem;
     }
     .cards-servicos div {
-        width: 100%;
+        width: 85%;
     }
     .texto-servicos {
         text-align: center;
+    }
+}
+
+section.portifolio {
+    width: 100%;
+    height: 650px;
+    padding: 2rem;
+    box-shadow: 0 0 40px 10px var(--title);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto-portifolio h2 {
+    margin-top: 2rem;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--title);
+    text-decoration: underline var(--primary);
+}
+
+section.portifolio .projetos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.img-projeto {
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: .7s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-projeto:hover {
+    background-position: 100% 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+@media (max-width: 895px) {
+    section.portifolio {
+        height: 100%;
+    }
+    section.portifolio .projetos {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .img-projeto {
+        width: 85%;
+        margin-bottom: 2rem;
     }
 }
