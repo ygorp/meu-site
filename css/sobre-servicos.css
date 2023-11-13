@@ -1,0 +1,138 @@
+.sobre {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-sobre {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.texto-sobre h2 {
+    font-family: 'Robot';
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--title);
+    margin-bottom: 3rem;
+}
+
+.texto-sobre span {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-hover);
+    background-color: var(--primary);
+    padding: .3rem;
+    border-radius: 8px;
+}
+
+.texto-sobre p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-hover);
+}
+
+.img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+.servicos {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.texto-servicos h2 {
+    margin-top: 2rem;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--title);
+    text-decoration: underline var(--primary);
+}
+
+.cards-servicos {
+    margin-top: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cards-servicos div {
+    background-color: var(--primary);
+    width: 20em;
+    height: 18em;
+    border-radius: 10px;
+    border-bottom: 8px solid var(--title);
+    box-shadow: 8px 8px 8px 7px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cards-servicos h3 {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.cards-servicos p {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+@media (max-width: 895px) {
+    .sobre {
+        flex-direction: column;
+        height: 100%;
+    }
+    .texto-sobre {
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .servicos {
+        height: 100%;
+    }
+    .cards-servicos {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .cards-servicos div {
+        width: 85%;
+    }
+    .texto-servicos {
+        text-align: center;
+    }
+}

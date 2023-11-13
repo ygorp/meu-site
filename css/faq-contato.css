@@ -1,0 +1,188 @@
+.faq {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-faq h2,
+.texto-contato h2 {
+    margin-top: 2rem;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--title);
+    text-decoration: underline var(--primary);
+}
+
+.secao-faq {
+    margin-top: 3rem;
+}
+
+.secao-faq details {
+    background-color: var(--primary);
+    margin-bottom: .8rem;
+    padding: 10px 15px;
+    border-radius: 30px;
+    width: 35em;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--title);
+}
+
+.secao-faq p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    padding: .5rem;
+    color: var(--text-hover);
+}
+
+.contato {
+    width: 100%;
+    height: 870px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.flex-contato {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.inform-contato,
+.form-contato {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inform-contato h3 {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--title);
+    margin-bottom: 1rem;
+}
+
+.inform-contato p {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    gap: .5rem;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social i {
+    color: var(--primary);
+    background-color: var(--title);
+    padding: .8rem;
+    border-radius: 100%;
+    font-size: 30px;
+}
+
+.form-contato label {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: .8rem;
+}
+
+.form-contato input,
+.form-contato select {
+    width: 80%;
+    padding: 10px 15px;
+    border: 1px solid var(--text-hover);
+}
+
+.input-group {
+    width: 80%;
+    margin-top: 1.5rem;
+}
+
+.input-group textarea,
+.input-group span {
+    border: 1px solid var(--text-hover);
+}
+
+.input-group span {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    margin-top: 2rem;
+    width: 220px;
+    padding: 10px 15px;
+    background: var(--primary);
+    color: var(--title);
+    border: none;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: var(--title);
+    color: var(--primary);
+}
+
+.inform-contato {
+    align-items: center;
+}
+
+@media (max-width: 714px) {
+    .secao-faq details {
+        width: 100%;
+    }
+    .secao-faq {
+        padding: 2rem;
+    }
+}
+
+
+
+@media (max-width: 985px) {
+    .contato {
+        height: 100%;
+        margin-top: 10rem;
+    }
+    .flex-contato {
+        flex-direction: column;
+    }
+    .inform-contato,
+    .form-contato {
+        width: 100%;
+        align-items: center;
+    }
+    .inform-contato {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .form-contato input,
+    .form-contato select,
+    .input-group {
+        width: 100%;
+    }
+}

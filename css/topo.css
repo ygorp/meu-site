@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #E8C547;
+    --title: #30323D;
+    --text-hover: #4D5061;
+    --text: #FFFFFF;
+}
+
+body {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    width: 100%;
+    height: 70px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--primary);
+}
+
+#nav img {
+    width: 220px;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--title);
+}
+
+.menu a:hover {
+    color: var(--text-hover);
+}
+
+.banner {
+    width: 100%;
+    height: 850px;
+    background-image: url(/img/Fundo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner h2 {
+    font-family: 'Roboto';
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--text);
+    text-align: center;
+}
+
+.banner span {
+    color: var(--primary);
+    font-size: 60px;
+}
+
+.btn_banner {
+    margin-top: 5rem;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--primary);
+    color: var(--title);
+    width: 240px;
+    padding: 10px 15px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn_banner:hover {
+    border: 2px solid var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+}
+
+@media (max-width: 768px) {
+    #btn-mobile {
+        display: block;
+    }
+    .menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: var(--primary);
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active .menu {
+        height: 50vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    .menu a {
+        display: block;
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .08);
+    }
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #hamburguer {
+        display: block;
+        color: var(--title);
+        border-top: 2px solid;
+        width: 20px;
+    }
+    #hamburguer::after, #hamburguer::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #hamburguer {
+        border-top-color: transparent;
+    }
+    #nav.active #hamburguer::before {
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+}
