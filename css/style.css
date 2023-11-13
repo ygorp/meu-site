@@ -300,13 +300,14 @@
 
 section.portifolio {
     width: 100%;
-    height: 650px;
+    height: 750px;
     padding: 2rem;
     box-shadow: 0 0 40px 10px var(--title);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: var(--title);
 }
 
 .texto-portifolio h2 {
@@ -314,8 +315,8 @@ section.portifolio {
     font-family: 'Roboto';
     font-size: 40px;
     font-weight: 700;
-    color: var(--title);
-    text-decoration: underline var(--primary);
+    color: var(--primary);
+    text-decoration: underline var(--text-hover);
 }
 
 section.portifolio .projetos {
@@ -385,4 +386,46 @@ section.portifolio .projetos {
         width: 85%;
         margin-bottom: 2rem;
     }
+}
+
+.faq {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-faq h2 {
+    margin-top: 2rem;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--title);
+    text-decoration: underline var(--primary);
+}
+
+.secao-faq {
+    margin-top: 5rem;
+}
+
+.secao-faq details {
+    background-color: var(--primary);
+    margin-bottom: .8rem;
+    padding: 10px 15px;
+    border-radius: 30px;
+    width: 35em;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--title);
+}
+
+.secao-faq p {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    padding: .5rem;
+    color: var(--text-hover);
 }
