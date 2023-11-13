@@ -185,7 +185,7 @@ body {
 .cards-servicos div {
     background-color: var(--primary);
     width: 20em;
-    height: 16em;
+    height: 18em;
     border-radius: 10px;
     border-bottom: 8px solid var(--title);
     box-shadow: 8px 8px 8px 7px rgba(0, 0, 0, 0.5);
@@ -198,7 +198,7 @@ body {
 
 .cards-servicos h3 {
     font-family: 'Roboto';
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     margin-top: 1rem;
     text-transform: uppercase;
