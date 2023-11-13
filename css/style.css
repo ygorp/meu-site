@@ -506,13 +506,13 @@ section.portifolio .projetos {
 
 .form-contato input,
 .form-contato select {
-    width: 60%;
+    width: 80%;
     padding: 10px 15px;
     border: 1px solid var(--text-hover);
 }
 
 .input-group {
-    width: 60%;
+    width: 80%;
     margin-top: 1.5rem;
 }
 
@@ -548,4 +548,28 @@ section.portifolio .projetos {
 
 .inform-contato {
     align-items: center;
+}
+
+@media (max-width: 985px) {
+    .contato {
+        height: 100%;
+        margin-top: 18rem;
+    }
+    .flex-contato {
+        flex-direction: column;
+    }
+    .inform-contato,
+    .form-contato {
+        width: 100%;
+        align-items: center;
+    }
+    .inform-contato {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .form-contato input,
+    .form-contato select,
+    .input-group {
+        width: 100%;
+    }
 }
