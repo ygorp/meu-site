@@ -429,3 +429,12 @@ section.portifolio .projetos {
     padding: .5rem;
     color: var(--text-hover);
 }
+
+@media (max-width: 714px) {
+    .secao-faq details {
+        width: 100%;
+    }
+    .secao-faq {
+        padding: 2rem;
+    }
+}
