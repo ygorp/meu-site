@@ -364,6 +364,14 @@ section.portifolio .projetos {
     opacity: 1;
 }
 
+.overlay a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
 @media (max-width: 895px) {
     section.portifolio {
         height: 100%;
