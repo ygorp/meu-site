@@ -229,7 +229,7 @@ body {
         overflow-y: hidden;
     }
     #nav.active .menu {
-        height: 40vh;
+        height: 50vh;
         visibility: visible;
         overflow-y: auto;
     }
@@ -412,7 +412,7 @@ section.portifolio .projetos {
 }
 
 .secao-faq {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .secao-faq details {
@@ -559,7 +559,7 @@ section.portifolio .projetos {
 @media (max-width: 985px) {
     .contato {
         height: 100%;
-        margin-top: 18rem;
+        margin-top: 10rem;
     }
     .flex-contato {
         flex-direction: column;
@@ -589,7 +589,7 @@ section.portifolio .projetos {
     background-color: var(--title);
     color: var(--primary);
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     padding: 1rem;
 }
