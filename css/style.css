@@ -462,7 +462,6 @@ section.portifolio .projetos {
     width: 50%;
     padding: 1rem;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -493,7 +492,60 @@ section.portifolio .projetos {
 .social i {
     color: var(--primary);
     background-color: var(--title);
-    padding: .5rem;
+    padding: .8rem;
     border-radius: 100%;
     font-size: 30px;
+}
+
+.form-contato label {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: .8rem;
+}
+
+.form-contato input,
+.form-contato select {
+    width: 60%;
+    padding: 10px 15px;
+    border: 1px solid var(--text-hover);
+}
+
+.input-group {
+    width: 60%;
+    margin-top: 1.5rem;
+}
+
+.input-group textarea,
+.input-group span {
+    border: 1px solid var(--text-hover);
+}
+
+.input-group span {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    margin-top: 2rem;
+    width: 220px;
+    padding: 10px 15px;
+    background: var(--primary);
+    color: var(--title);
+    border: none;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: var(--title);
+    color: var(--primary);
+}
+
+.inform-contato {
+    align-items: center;
 }
