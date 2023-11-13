@@ -1,4 +1,5 @@
 const btnMobile = document.getElementById('btn-mobile')
+const btnArrow = document.getElementById('btnTop')
 
 function toggleMenu(event) {
     if(event.type == 'touchstart') event.preventDefault()
@@ -16,3 +17,19 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu)
 btnMobile.addEventListener('touchstart', toggleMenu)
+
+btnArrow.addEventListener('click', () => {
+    window.scrollTo(0,0)
+})
+
+document.addEventListener('scroll', ocultarArrow)
+
+function ocultarArrow() {
+    if(window.scrollY > 250) {
+        btnArrow.style.display = 'flex'
+    } else {
+        btnArrow.style.display = 'none'
+    }
+}
+
+ocultarArrow()
