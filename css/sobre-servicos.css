@@ -82,11 +82,11 @@
 }
 
 .cards-servicos div {
-    background-color: var(--primary);
+    background-color: var(--text);
     width: 20em;
-    height: 18em;
+    height: 15em;
     border-radius: 10px;
-    border-bottom: 8px solid var(--title);
+    border-bottom: 8px solid var(--primary);
     box-shadow: 8px 8px 8px 7px rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
@@ -105,9 +105,10 @@
 
 .cards-servicos p {
     font-family: 'Montserrat';
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     margin-top: 2rem;
+    color: var(--text-hover);
 }
 
 @media (max-width: 895px) {
