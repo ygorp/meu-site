@@ -91,6 +91,8 @@ body {
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
 .btn_banner:hover {
