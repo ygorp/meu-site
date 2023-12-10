@@ -1,6 +1,6 @@
 .faq {
     width: 100%;
-    height: 750px;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -18,6 +18,11 @@
 
 .secao-faq {
     margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .secao-faq details {
@@ -153,11 +158,16 @@
 }
 
 @media (max-width: 714px) {
+    .faq {
+        height: 100%;
+    }
     .secao-faq details {
         width: 100%;
+        margin-bottom: 1rem;
     }
     .secao-faq {
         padding: 2rem;
+        height: 100%;
     }
 }
 
@@ -165,8 +175,9 @@
 
 @media (max-width: 985px) {
     .contato {
+        width: 100%;
         height: 100%;
-        margin-top: 10rem;
+        padding: 1rem;
     }
     .flex-contato {
         flex-direction: column;

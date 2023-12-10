@@ -74,8 +74,8 @@
                     <p>Landing Pages são páginas específicas que conduzem visitantes à conversão</p>
                 </div>
                 <div>
-                    <h3>Blog/Portais</h3>
-                    <p>Este tipo de site é focado em disponibilizar vários artigos ou notícias</p>
+                    <h3>Automação</h3>
+                    <p>Este tipo de sistema é focado em realizar processos de forma automática e facilitando a realização de tarefas</p>
                 </div>
             </div>
         </section>
