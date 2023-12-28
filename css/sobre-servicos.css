@@ -1,3 +1,10 @@
+:root {
+    --primary: #E8C547;
+    --title: #30323D;
+    --text-hover: #4D5061;
+    --text: #FFFFFF;
+}
+
 .sobre {
     width: 100%;
     height: 650px;
@@ -20,7 +27,7 @@
     font-family: 'Robot';
     font-size: 40px;
     font-weight: 700;
-    color: var(--title);
+    color: var(--text);
     margin-bottom: 3rem;
 }
 
@@ -38,7 +45,7 @@
     font-family: 'Poppins';
     font-size: 15px;
     font-weight: 500;
-    color: var(--text-hover);
+    color: var(--text);
 }
 
 .img {
@@ -68,7 +75,7 @@
     font-family: 'Roboto';
     font-size: 40px;
     font-weight: 700;
-    color: var(--title);
+    color: var(--text);
     text-decoration: underline var(--primary);
 }
 

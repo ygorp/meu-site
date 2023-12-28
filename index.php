@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/topo.css">
     <link rel="stylesheet" href="/css/sobre-servicos.css">
-    <link rel="stylesheet" href="/css/portifolio.css">
     <link rel="stylesheet" href="/css/faq-contato.css">
     <link rel="stylesheet" href="/css/efeitos.css">
     <link rel="stylesheet" href="/css/footer.css">
@@ -25,7 +24,6 @@
             <ul class="menu" role="menu">
                 <li><a href="#sobre">Sobre Nós</a></li>
                 <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#portifolio">Portifólio</a></li>
                 <li><a href="#faq">Faq</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
@@ -75,26 +73,13 @@
                 </div>
                 <div>
                     <h3>Automação</h3>
-                    <p>Este tipo de sistema é focado em realizar processos de forma automática e facilitando a realização de tarefas</p>
+                    <p>Este tipo de sistema é focado em realizar processos de forma automática, facilitando a realização de tarefas</p>
                 </div>
             </div>
         </section>
 
-        <section class="portifolio" id="portifolio">
-            <div class="texto-portifolio">
-                <h2>Portifólio</h2>
-            </div>
-            <div class="projetos">
-                <div class="img-projeto" style="background-image: url(/img/bmvix.png);">
-                    <div class="overlay"><a href="https://bmvix.com.br/relogio_ponto_restaurante/" target="_blank">Clique Aqui</a></div>
-                </div>
-                <div class="img-projeto" style="background-image: url(/img/homecell.png);">
-                    <div class="overlay"><a href="https://loja-homecell.vercel.app/" target="_blank">Clique Aqui</a></div>
-                </div>
-                <div class="img-projeto" style="background-image: url(/img/bmvix.png);">
-                    <div class="overlay"><a href="" target="_blank"></a></div>
-                </div>
-            </div>
+        <section>
+            
         </section>
 
         <section class="faq" id="faq">
@@ -147,11 +132,11 @@
             <div class="flex-contato">
                 <div class="inform-contato">
                     <h3>Ygor Pacheco Nogueira</h3>
-                    <p><i class="fa-solid fa-phone"></i>(27) 9 9203-7927</p>
-                    <p><i class="fa-solid fa-envelope"></i>contato@devwebcriativo.com.br</p>
+                    <a href="https://api.whatsapp.com/send?phone=5527992037927" target="_blank"><i class="fa-solid fa-phone"></i>(27) 9 9203-7927</a>
+                    <a href="ygor-nogueira@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>contato@devwebcriativo.com.br</a>
 
                     <div class="social">
-                        <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/ygor-pacheco-nogueira-15082020b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://www.instagram.com/ygorpnogueira/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://github.com/ygorp" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
